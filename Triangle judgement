@@ -1,0 +1,1 @@
+Select x,y,z,case  when (x+z>y) and(y+z>x) and (x+y>z)then 'Yes' else'No' end as triangle from Triangle;
